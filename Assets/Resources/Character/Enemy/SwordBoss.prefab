@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8595009452523676870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7172258186756184452}
+  - component: {fileID: 4268652885896526182}
+  - component: {fileID: 4268652885896526183}
+  - component: {fileID: 4268652885896526187}
+  - component: {fileID: 1252683376117852401}
+  - component: {fileID: 4268652885896526188}
+  - component: {fileID: 6287004580042323979}
+  m_Layer: 8
+  m_Name: SwordBoss
+  m_TagString: Boss
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7172258186756184452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3943633, y: 0.011, z: 4.293215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4268652885799690676}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4268652885896526182
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+  m_Controller: {fileID: 9100000, guid: fd1a4833527133b40842113b8048b58b, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4268652885896526183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27329847e80fb634c980b4d17e309a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectionPositionOffset: -0.22
+  DetectionRange: 0.29
+  WhatisGround:
+    serializedVersion: 2
+    m_Bits: 192
+  MoveSpeed: 2
+  ApplyMovement: 0
+  ApplyRunToTarget: 0
+  slerpSpeed: 5
+--- !u!143 &4268652885896526187
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.8
+  m_Radius: 0.3
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1252683376117852401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86775abbd31044d4f88d191b3aad41b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectColliders: []
+  detecteRange: 0
+  detectLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  awardDistance: 20
+  mdatkDistance: 15
+  sdatkDistance: 4
+  m_ShortCombo: []
+  m_LongCombo: []
+--- !u!114 &4268652885896526188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(239.811646,-118.016808)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0.3116455,137.4447)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(0,119.230759)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-449.208374,161.465851)"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AISDistanceAtkCondition","NodeData":{"Offset":"(-99.40765,184.0723)"},"ID":4,"Name":"AIS
+        Distance Atk Condition","Instant":true},{"Type":"SDistanceAtkAction","NodeData":{"Offset":"(15.4190845,271.210175)"},"ID":5,"Name":"S
+        Distance Atk Action","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-216.688232,163.529144)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AIlDistanceAtkCondition","NodeData":{"Offset":"(-28.92966,243.332214)"},"ID":7,"Name":"A
+        Il Distance Atk Condition","Instant":true},{"Type":"LDistanceAtkAction","NodeData":{"Offset":"(71.42787,148.822937)"},"ID":8,"Name":"L
+        Distance Atk Action","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(159.696014,152.546692)","Comment":"\u5bf9\u5cd9\u72b6\u6001"},"ID":9,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AssignAtkAction","NodeData":{"Offset":"(-73.06085,317.5542)"},"ID":10,"Name":"Assign
+        Atk Action","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(190.675583,109.060013)","Comment":"\u8fd1\u8ddd\u79bb"},"ID":11,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"AssignDistanceCondition","NodeData":{"Offset":"(-64.76186,88.94386)"},"ID":12,"Name":"Assign
+        Distance Condition","Instant":true,"SingleassignDistance":0.7},{"Type":"MoveToDirAction","NodeData":{"Offset":"(26.4441833,174.07019)"},"ID":13,"Name":"Move
+        To Dir Action","Instant":true,"Int32dir":1}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(405.54892,126.666695)","Comment":"\u8fdc\u8ddd\u79bb"},"ID":14,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(-80.95241,110.518059)"},"ID":15,"Name":"Inverter","Instant":true,"Children":[{"Type":"AssignDistanceCondition","NodeData":{"Offset":"(9.139057,101.553764)"},"ID":16,"Name":"Assign
+        Distance Condition","Instant":true,"SingleassignDistance":1.2}]},{"Type":"MoveToDirAction","NodeData":{"Offset":"(42.5382767,134.4239)"},"ID":17,"Name":"Move
+        To Dir Action","Instant":true,"Int32dir":0}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(569.223755,230.9607)","Comment":"\u4e2d\u8ddd\u79bb"},"ID":18,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(13.7023439,107.862045)"},"ID":19,"Name":"Selector","Instant":true,"AbortTypeabortType":"Self","Children":[{"Type":"AssignDistanceCondition","NodeData":{"Offset":"(-140.6163,168.013062)"},"ID":20,"Name":"Assign
+        Distance Condition","Instant":true,"SingleassignDistance":0.7},{"Type":"BehaviorDesigner.Runtime.Tasks.Inverter","NodeData":{"Offset":"(7.442322,164.186523)"},"ID":21,"Name":"Inverter","Instant":true,"Children":[{"Type":"AssignDistanceCondition","NodeData":{"Offset":"(-20,110)"},"ID":22,"Name":"Assign
+        Distance Condition","Instant":true,"SingleassignDistance":1.2}]},{"Type":"RandomMoveAction","NodeData":{"Offset":"(156.111115,157.777771)"},"ID":23,"Name":"Random
+        Move Action","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Log","NodeData":{"Offset":"(149.215759,105.5893)"},"ID":24,"Name":"Log","Instant":true,"SharedStringtext":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedBoollogError":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedBoollogTime":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]}]}]}]}}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.12
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &6287004580042323979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595009452523676870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a899ba226715aae459e2a4fba6ee5239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_attr:
+    baseAttr:
+      maxHp: 0
+      def: 0
+      atk: 0
+      speed: 0
+      name: 
+    currentHp: 0
+  m_ID: 1
+--- !u!1001 &4268652885800090376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7172258186756184452}
+    m_Modifications:
+    - target: {fileID: 100060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_Name
+      value: Frank_RPG_GreatSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c5126f94ac3e9934ebe714cfb53f07be, type: 3}
+--- !u!4 &4268652885799690676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400060, guid: c5126f94ac3e9934ebe714cfb53f07be,
+    type: 3}
+  m_PrefabInstance: {fileID: 4268652885800090376}
+  m_PrefabAsset: {fileID: 0}

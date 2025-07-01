@@ -1,0 +1,13 @@
+[
+  {
+    "index": 0,
+    "name": "RedShit",
+    "combos": "RS_S0,RS_S1"
+  },
+  {
+    "index": 1,
+    "name": "SwordBoss",
+    "combos": "SB_S0,SB_S1,SB_S2,SB_S3,SB_S4,SB_L0,SB_L1"
+  }
+
+]

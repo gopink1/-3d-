@@ -1,0 +1,106 @@
+[
+  {
+    "EnemyIndex": 0,
+    "State": "Idle",
+    "Transition": "FindPlayer",
+    "TransToState": "Move"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Idle",
+    "Transition": "Attack",
+    "TransToState": "Attack"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Idle",
+    "Transition": "Hit",
+    "TransToState": "Hit"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Idle",
+    "Transition": "Die",
+    "TransToState": "Dead"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Move",
+    "Transition": "LostTarget",
+    "TransToState": "Idle"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Move",
+    "Transition": "Attack",
+    "TransToState": "Attack"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Move",
+    "Transition": "Hit",
+    "TransToState": "Hit"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Move",
+    "Transition": "Die",
+    "TransToState": "Dead"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Attack",
+    "Transition": "LostTarget",
+    "TransToState": "Idle"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Attack",
+    "Transition": "FindPlayer",
+    "TransToState": "Move"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Attack",
+    "Transition": "Hit",
+    "TransToState": "Hit"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Attack",
+    "Transition": "Die",
+    "TransToState": "Dead"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Hit",
+    "Transition": "LostTarget",
+    "TransToState": "Idle"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Hit",
+    "Transition": "FindPlayer",
+    "TransToState": "Move"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Hit",
+    "Transition": "Attack",
+    "TransToState": "Attack"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Hit",
+    "Transition": "Die",
+    "TransToState": "Dead"
+  },
+  {
+    "EnemyIndex": 0,
+    "State": "Dead",
+    "Transition": "Revive",
+    "TransToState": "Idle"
+  }
+
+
+]

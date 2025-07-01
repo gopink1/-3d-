@@ -1,0 +1,65 @@
+[
+  {
+    "weaponIndex": "S0_0",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Sword0_Green",
+    "animatorName": "Player Sword Animator Controller"
+  },
+  {
+    "weaponIndex": "S0_1",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Sword0_Red",
+    "animatorName": "Player Sword Animator Controller"
+  },
+  {
+    "weaponIndex": "S0_2",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Sword0_Yellow",
+    "animatorName": "Player Sword Animator Controller"
+  },
+  {
+    "weaponIndex": "BA0_0",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Battleaxe0_Blue",
+    "animatorName": "Player Battleaxe Animator Controller"
+  },
+  {
+    "weaponIndex": "BA0_1",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Battleaxe0_Cyan",
+    "animatorName": "Player Battleaxe Animator Controller"
+  },
+  {
+    "weaponIndex": "BA0_2",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Battleaxe0_Green",
+    "animatorName": "Player Battleaxe Animator Controller"
+  },
+  {
+    "weaponIndex": "BA0_3",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Battleaxe0_Orange",
+    "animatorName": "Player Battleaxe Animator Controller"
+  },
+  {
+    "weaponIndex": "BA0_4",
+    "atk": 10,
+    "range": 1,
+    "weaponName": "Battleaxe0_Red",
+    "animatorName": "Player Battleaxe Animator Controller"
+  },
+  {
+    "weaponIndex": "F_I",
+    "atk": 10,
+    "range": 20,
+    "weaponName": "IceFire",
+    "animatorName": "null"
+  }
+]

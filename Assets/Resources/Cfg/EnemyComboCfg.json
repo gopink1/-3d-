@@ -1,0 +1,12 @@
+[
+{"comboIndex":"RS_S0","comboName":"RS_NormalAtk","comboPath":"ComboSO/Enemy/RedShit/RS_NormalAtk"},
+{"comboIndex":"RS_S1","comboName":"RS_JumpAtk","comboPath":"ComboSO/Enemy/RedShit/RS_JumpAtk"},
+{"comboIndex":"SB_S0","comboName":"SBShortCombo0","comboPath":"ComboSO/Enemy/SwordBoss/ShortDistance/SBShortCombo0"},
+{"comboIndex":"SB_S1","comboName":"SBShortCombo1","comboPath":"ComboSO/Enemy/SwordBoss/ShortDistance/SBShortCombo1"},
+{"comboIndex":"SB_S2","comboName":"SBShortCombo2","comboPath":"ComboSO/Enemy/SwordBoss/ShortDistance/SBShortCombo2"},
+{"comboIndex":"SB_S3","comboName":"SBShortCombo3","comboPath":"ComboSO/Enemy/SwordBoss/ShortDistance/SBShortCombo3"},
+{"comboIndex":"SB_S4","comboName":"SBShortCombo4","comboPath":"ComboSO/Enemy/SwordBoss/ShortDistance/SBShortCombo4"},
+{"comboIndex":"SB_L0","comboName":"SBLongCombo0","comboPath":"ComboSO/Enemy/SwordBoss/LongDistance/SBLongCombo0"},
+{"comboIndex":"SB_L1","comboName":"SBLongCombo1","comboPath":"ComboSO/Enemy/SwordBoss/LongDistance/SBLongCombo1"}
+
+]

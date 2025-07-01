@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a4a04e9e02b364ba8e1366f5efa008, type: 3}
+  m_Name: SBShortCombo0
+  m_EditorClassIdentifier: 
+  allComboData:
+  - {fileID: 11400000, guid: 2069b1c6cf2753545bc44b882646dc4f, type: 2}
+  - {fileID: 11400000, guid: 270d699da9a4ca443b546752080decdd, type: 2}
+  - {fileID: 11400000, guid: 6b016a2387671e54ebde17b2ed8c5bfc, type: 2}
+  - {fileID: 11400000, guid: de496f7a7fdd10d44a63161ffc8a9e72, type: 2}

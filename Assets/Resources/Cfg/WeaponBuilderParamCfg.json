@@ -1,0 +1,48 @@
+[
+  {
+    "weaponIndex": "S0_0",
+    "modelPath": "Weapon/Sword0_Green",
+    "comboName": "SwordCombo0"
+  },
+  {
+    "weaponIndex": "S0_1",
+    "modelPath": "Weapon/Sword0_Red",
+    "comboName": "SwordCombo0"
+  },
+  {
+    "weaponIndex": "S0_2",
+    "modelPath": "Weapon/Sword0_Yellow",
+    "comboName": "SwordCombo0"
+  },
+  {
+    "weaponIndex": "BA0_0",
+    "modelPath": "Weapon/Battleaxe0_Blue",
+    "comboName": "BattleaxeCombo0"
+  },
+  {
+    "weaponIndex": "BA0_1",
+    "modelPath": "Weapon/Battleaxe0_Cyan",
+    "comboName": "BattleaxeCombo0"
+  },
+  {
+    "weaponIndex": "BA0_2",
+    "modelPath": "Weapon/Battleaxe0_Green",
+    "comboName": "BattleaxeCombo0"
+  },
+  {
+    "weaponIndex": "BA0_3",
+    "modelPath": "Weapon/Battleaxe0_Orange",
+    "comboName": "BattleaxeCombo0"
+  },
+  {
+    "weaponIndex": "BA0_4",
+    "modelPath": "Weapon/Battleaxe0_Red",
+    "comboName": "BattleaxeCombo0"
+  },
+  {
+    "weaponIndex": "F_I",
+    "modelPath": "Weapon/IceFire",
+    "comboName": "FireCombo0"
+  }
+  
+]
