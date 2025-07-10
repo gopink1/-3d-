@@ -30,6 +30,13 @@
 <img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/0c849ed5-5ba7-4e8f-9d91-ad40a77fec1a" />
 左边使用计时器做的倒计时，左下角会进行收击扣血UI更新：
 <img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/dd631fe0-6df0-4752-9a4e-f9ad3e5cd709" />
+杀敌关卡，击杀敌人的通关条件，由事件系统进行关系：
+<img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/5b7b32ad-30a7-47a0-84d6-464a8908de95" />
+boss战斗：
+<img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/1b44633a-444f-4171-b929-4b8c866fca6d" />
+<img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/977bd027-79cc-4298-a40e-b7e5d9f31d51" />
+<img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/ec60f376-7b4b-4220-9766-c7bc44027aa9" />
+<img width="2560" height="1461" alt="image" src="https://github.com/user-attachments/assets/a259b232-95cf-4f31-8d70-44e681782a39" />
 
 
 
